@@ -485,7 +485,7 @@ function exit() {
   firebase.database().ref("turn" + vOneLS).remove();
   firebase.database().ref(vOneLS).remove();
   setTimeout(function() {
-    window.location = "index.html";
+    window.location = "https://tahasharjeel.github.io/Tic-Tac-Toe-FireBase-Multiplayer-Start/";
   }, 1000);
 
 }
